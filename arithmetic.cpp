@@ -19,9 +19,9 @@ int main () {
     std::cout << "The answer is: " << add(x, y);
 
     std::cout << "\n\nAdd two number for subraction:";
-    int sx, sy;
+    int sub_x, sub_y;
     std::cin >> sx >> sy;
-    std::cout << "\nThe answer is: " << sub(sx, sy);
+    std::cout << "\nThe answer is: " << sub(sub_x, sub_y); // yan specfic na yan jusq!
 
     return 0;
 }
